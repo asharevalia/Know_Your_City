@@ -22,7 +22,7 @@ AND TYPE = '$s1'");
 
 while($row=mysql_fetch_array($r))
 {
-Print "<table border cellpadding=3>";
+Print "<table border cellpadding=4>";
 echo "<tr>";
 	echo "<th>Agency Name</th> <td>".$b=$row['Name_of_Agency']."</td></tr>";
 
@@ -32,12 +32,18 @@ echo "<tr>";
 echo "<th>Region</th> <td>".$b=$row['Region']."</td></tr>";
 echo "<tr>";
 echo "<th>State</th> <td>".$b=$row['State']."</td></tr>";
-//echo "City".$b=$row['City']."<br>";
-//echo "Contact Person".$b=$row['Contact Person']."<br>";
-//echo "Type".$b=$row['TYPE']."<br>";
-//echo "Phone".$b=$row['Phone']."<br>";
-//echo "Email".$b=$row['Email']."<br>";
-//echo "Fax".$b=$row['Fax']."<br>";
+echo "<tr>";
+echo "<th>City</th> <td>".$b=$row['City']."</td></tr>";
+echo "<tr>";
+echo "<th>Contact Person</th> <td>".$b=$row['Contact Person']."</td></tr>";
+echo "<tr>";
+echo "<th>Type</th> <td>".$b=$row['TYPE']."</td></tr>";
+echo "<tr>";
+echo "<th>Phone</th> <td>".$b=$row['Phone']."</td></tr>";
+echo "<tr>";
+echo "<th>Email</th> <td>".$b=$row['Email']."</td></tr>";
+echo "<tr>";
+echo "<th>Fax</th> <td>".$b=$row['Fax']."</td></tr>";
 
 //echo "<hr>";
 Print "</table>"; 

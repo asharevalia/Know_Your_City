@@ -293,7 +293,7 @@
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
            <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="tour.html">Home</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
 
@@ -329,7 +329,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>LOTUS TEMPLE</h1>
-              <p class="lead">The Lotus Temple, located in New Delhi, India, is a Bahá'í House of Worship completed in 1986. Notable for its flowerlike shape, it serves as the Mother Temple of the Indian subcontinent and has become a prominent attraction in the city.</p>
+              <p class="lead">The Lotus Temple, located in New Delhi, India, is a Bah\E1'\ED House of Worship completed in 1986. Notable for its flowerlike shape, it serves as the Mother Temple of the Indian subcontinent and has become a prominent attraction in the city.</p>
            <!--   <a class="btn btn-large btn-primary" href="#">Sign up today</a> -->
             </div>
           </div>
@@ -426,7 +426,7 @@ Centre/Bed & Breakfast as on 12.03.2013</p>
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
           <h2>MAPS</h2>
-          <p>A map is a visual representation of an area – a symbolic depiction highlighting relationships between elements of that space such as objects, regions, and themes.</p>
+          <p>A map is a visual representation of an area \96 a symbolic depiction highlighting relationships between elements of that space such as objects, regions, and themes.</p>
 <form action="t9.html" method="get">
 <button type="submit">Maps</button><br>
           <!--<p><a class="btn" href="#">View details &raquo;</a></p>-->

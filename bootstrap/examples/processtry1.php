@@ -22,7 +22,7 @@ $data=mysql_query("SELECT HOTEL_NAME FROM hotelinfo WHERE STATE='$pt'");
 ?>
 
 <html>
-<body>
+<body style="background-color:#9ACD32;">
 <h4>Your Correspondence Hotels are given below:</h4>
 <form action="process2.php" method="POST">
 <?php
