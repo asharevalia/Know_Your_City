@@ -4,13 +4,13 @@ echo "<br>";
 echo "<br>";
 echo "<br>";
 echo "<br>";
-echo "User selected State is=";
-echo $pt=$_REQUEST['myInputName'];
+//echo "User selected State is=";
+$pt=$_REQUEST['myInputName'];
 
 $sql=mysql_query("INSERT INTO prefer(myInputName) VALUES ('$pt')") ;
  echo "<br>";
 $data=mysql_query("SELECT HOTEL_NAME FROM hotelinfo WHERE STATE='$pt'");
-	 echo "Your Correspondence Hotels are given below<br>"; 
+	// echo "<b>"."Your Correspondence Hotels are given below<br>"; 
 	//$info=mysql_fetch_array($data))
 
 
@@ -23,6 +23,7 @@ $data=mysql_query("SELECT HOTEL_NAME FROM hotelinfo WHERE STATE='$pt'");
 
 <html>
 <body>
+<h4>Your Correspondence Hotels are given below:</h4>
 <form action="process2.php" method="POST">
 <?php
 	echo "<select name=\"hotelname\">"; // Open your drop down box
